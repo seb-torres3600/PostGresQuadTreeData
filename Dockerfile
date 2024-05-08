@@ -4,7 +4,7 @@ FROM postgres:latest
 # Set environment variables for PostgreSQL
 ENV POSTGRES_USER=datauser
 ENV POSTGRES_PASSWORD=mypassword
-ENV POSTGRES_DB=sampledatabase
+ENV POSTGRES_DB=quadtreedatabase
 
 # Install jq and other necessary packages
 RUN apt-get update && \
